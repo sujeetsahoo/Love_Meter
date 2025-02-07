@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    padding: 50px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.meter {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.heart {
+    font-size: 50px;
+    color: red;
+    animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+.message {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.btn{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: aqua;
+}
